@@ -11,7 +11,7 @@ import { AppContext } from "../../context/AppContext";
 const ProfileUpdate = () => {
   const navigate = useNavigate();
 
-  const [images, setImages] = useState<File | null>(null);
+  const [images] = useState<File | null>(null);
   const [name, setName] = useState("");
   const [bio, setBio] = useState("");
   const [preImage, setPreImages] = useState("");
